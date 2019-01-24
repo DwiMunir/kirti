@@ -3,9 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 .head{
   position: absolute;
-  z-index: 2;
+  z-index: 5;
   width: 100%;
   opacity: 1;
   top: 0;
@@ -29,6 +32,10 @@
 .navbar-header > a >h2{
   color: white;
   font-size: 3vw;
+}
+.nav-fix{
+  background: rgba(0, 0, 0, 0.57);
+  z-index: 10 !important;
 }
 .utama, .batas{
   position: relative;
@@ -197,20 +204,92 @@
   opacity: 1;
 }
 .karya{
-  height: 450px;
   background: white;
   transform: rotateX(-2deg;);
+  text-align: center;
+  z-index: 3;
+  position: relative;
+  padding: 1% 0 2% 0;
+}
+.kr{
+  position: relative;
+  height: auto;
 }
 .kr_r{
   position: relative;
-  height: 200px;
+  height: 50px;
 }
 .rotate_k{
   width: 100%;
-  height: 200px;
+  height: 100px;
   position: absolute;
   transform: skewY(2deg);
   background: white;
   top: -2vw;
   z-index: 2;
+}
+.karya h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3.5vw;
+  opacity: .9;
+  font-weight: 600;
+  color: rgb(62, 62, 62);
+}
+.karya{
+  width: 100%;
+}
+.karya .pack p{
+  font-size: 1.3vw;
+  color: rgb(69, 69, 69);
+  opacity: .9;
+}
+.karya .row .col-md-4{
+  margin: 1% 0 1% 0;
+}
+.card-text p{
+  font-weight: 600;
+}
+.hasil-item{
+  transition: 1s;
+  width: 100%;
+}
+.hasil-item:hover{
+  transform: translateY(-1vw);
+  box-shadow: 10px 10px 15px black;
+}
+.gl{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  z-index: 2;
+}
+.galery h1{
+  font-weight: 600;
+  color: rgb(64, 64, 64);
+  opacity: .9;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+.gl-pack{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  perspective: 150px;
+}
+.gl-item-1{
+  width: 40%;
+  height: 500px;
+  background: url('image/k1.jpg');
+  transform:rotateY(300deg);
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
 }

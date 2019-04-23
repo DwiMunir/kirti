@@ -80,18 +80,6 @@ html{
   color: white;
   opacity: .9;
 }
-.typed::after{
-  display: inline;
-  content: '|';
-  opacity: 1;
-  color: white;
-  animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
 .batas{
   width: 100%;
   height: 450px;
@@ -260,9 +248,10 @@ html{
 }
 .gl{
   width: 100%;
-  height: 400px;
+  height: 500px;
   position: relative;
   z-index: 2;
+  margin-top: 5vw;
 }
 .galery h1{
   font-weight: 600;
@@ -293,4 +282,120 @@ html{
   background-size: cover;
   width: 300px;
   height: 300px;
+}
+.testi{
+  width: 100%;
+  height: auto;
+  padding-bottom: 2%;
+  background: -webkit-linear-gradient(top left, #0f0c29 0%, #302b63 50%,#24243e 100%);
+}
+.rotate-tes{
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+.tes-r{
+  width: 100%;
+  height: 100px;
+  background: white;
+  transform: skewY(-2deg);
+  position: absolute;
+  top: -2vw;
+}
+.testim .pack{
+  text-align: center;
+  color: rgb(228, 228, 228);
+}
+.testim h1{
+  font-weight: 600;
+}
+.testimoni img{
+  width: 100%;
+  height: auto;
+}
+.testimoni .col-md-4{
+  margin-bottom: ;
+}
+.tent{
+  height: 600px;
+}
+.tent-r{
+  position: relative;
+  height: 100px;
+}
+.rotate-tent{
+  width: 100%;
+  height: 100px;
+  transform: skewY(-2deg);
+  position: absolute;
+  top: -2vw;
+  background: white;
+  z-index: 3;
+}
+.tentang .pack h1, .visi .pack h1{
+  text-align: center;
+}
+.pack .span{
+  width: 25%;
+  height: 5px;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(top left, #0f0c29 0%, #302b63 50%,#24243e 100%);
+}
+.tentang .pack, .visi .pack{
+  margin-bottom: 5vw;;
+}
+.visi img{
+  width: 100%;
+}
+.v-image{
+  opacity: .8;
+}
+.kont-jdl{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 5vw;
+}
+.ben-tengah{
+  width: 100%;
+}
+.form-kontak{
+  margin-top: 3vw;
+  width: 100%;
+}
+.form-kontak form{
+  width: 100%;
+}
+.form-kontak input, .form-kontak textarea{
+  width: 100%;
+  margin: 1.5vw 0 auto;
+  border-radius: 5px;
+  padding-left: 1vw;
+  border: 2px solid rgba(149, 149, 149, 0.5);
+  font-size: 1.2vw;
+  line-height: 3.5vw;
+  outline-color: rgb(77, 10, 85);
+}
+.form-kontak input{
+  height: 3.5vw;
+}
+.form-kontak textarea{
+  height: 20vw;
+}
+.form-kontak input[name=kirim]{
+  width: 30%;
+  background: rgb(142, 18, 185);
+  text-align: center;
+  color: white;
+  line-height: 3.5vw;
+  font-family: cursive;
+  transition: 0.3s;
+}
+.form-kontak input[name=kirim]:hover{
+  background: rgb(41, 43, 47);
+  border: none;
+}
+.form-kontak h3{
+  opacity: 0.7;
+  font-weight: 500;
 }

@@ -1,58 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/aos.css?version=51">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/master.css?version=51">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/animate.css?version=51">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-    <title>KIRTI - Karya Ilmiah Remaja Teknologi Informasi</title>
-  </head>
-  <body>
-    <header class="head">
-      <div class="container">
-        <nav class="navbar navbar-default">
-          <div class="navbar-header">
-            <a href="#">
-              <h2>KIRTI</h2>
-            </a>
-          </div>
-          <div class="menu" id="spy">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#jurusan-sc">jurusan</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#karya-sc">Karya & Prestasi</a>
-                <li class="nav-item">
-                  <a class="nav-link" href="#galery-sc">Galeri</a>
-                </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testimoni-sc">Testimoni</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#tentang-sc">Tentang</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#kontak-sc">Kontak</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
     <div class="utama">
       <div class="home parallax-window" data-parallax="scroll">
         <div class="gradient"></div>
@@ -60,15 +6,15 @@
           <div class="row">
             <div class="col-md-12">
               <div class="img">
-                <img class="animated flip" src="image/logo.png" alt="">
+                <img class="animated flip" src="<?php echo base_url(); ?>/assets/image/logo.png" alt="">
               </div>
               <div class="ket">
                 <h2>
                   <div id="typed-strings">
-                    <p>Cerdas . Kreativ . Mandiri .</p>
+                    <p>Smart . Creative . Independent .</p>
                     <p>Make Your <strong>Creation</strong> In Organization.</p>
                   </div>
-                  <span class="typed"></span></h2>
+
               </div>
             </div>
           </div>
@@ -130,7 +76,7 @@
               <div class="garis_b"></div>
               <p>Chose Your Passion to Best Performance</p>
               <div class="img">
-                <img class="jr_img responsive-image" src="image/jurusan3.png" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200" alt="">
+                <img class="jr_img responsive-image" src="<?php echo base_url(); ?>/assets/image/jurusan3.png" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200" alt="">
               </div>
             </div></center>
           </div>
@@ -146,13 +92,13 @@
         <div class="col-md-12">
           <div class="karya">
             <div class="pack">
-              <h1>Karya & Prestasi</h1>
+              <h1>KARYA & PRESTASI</h1>
               <p>Beberapa Karya Dari Para Siswa Kirti.</p>
             </div>
               <div class="row">
                 <div class="col-md-4">
                   <div class="card hasil-item">
-                    <img src="image/k1.jpg" class="card-img-top" alt="...">
+                    <img src="<?php echo base_url(); ?>/assets/image/k1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <p class="card-text">Admin Panel</p>
                     </div>
@@ -160,7 +106,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="card hasil-item">
-                    <img src="image/k1.jpg" class="card-img-top" alt="...">
+                    <img src="<?php echo base_url(); ?>/assets/image/k1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <p class="card-text">Admin Panel</p>
                     </div>
@@ -168,7 +114,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="card hasil-item">
-                    <img src="image/k1.jpg" class="card-img-top" alt="...">
+                    <img src="<?php echo base_url(); ?>/assets/image/k1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <p class="card-text">Admin Panel</p>
                     </div>
@@ -176,7 +122,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="card hasil-item">
-                    <img src="image/k1.jpg" class="card-img-top" alt="...">
+                    <img src="<?php echo base_url(); ?>/assets/image/k1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <p class="card-text">Admin Panel</p>
                     </div>
@@ -187,48 +133,159 @@
         </div>
       </div>
     </div>
-    <div class="gl" id="galery-sc">
+    <div id="galery-sc"></div>
+    <div class="gl">
       <div class="col-md-12">
         <div class="galery">
-          <div class="pack">
-            <h1>Galery</h1>
-          </div>
+          <center>
+            <div class="pack">
+              <h1>GALLERY</h1>
+              <div class="span"></div>
+            </div>
+          </center>
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide" style="background:url('image/k1.jpg');"></div>
-              <div class="swiper-slide" style="background:url('image/k1.jpg');"></div>
-              <div class="swiper-slide" style="background:url('image/k1.jpg');"></div>
-              <div class="swiper-slide" style="background:url('image/k1.jpg');"></div>
-              <div class="swiper-slide" style="background:url('image/k1.jpg');"></div>
-              <div class="swiper-slide" style="background:url('image/k1.jpg');"></div>
-              <div class="swiper-slide" style="background:url('image/k1.jpg');"></div>
-              <div class="swiper-slide" style="background:url('image/k1.jpg');"></div>
+              <div class="swiper-slide" style="background:url('<?php echo base_url(); ?>/assets/image/k1.jpg');"></div>
+              <div class="swiper-slide" style="background:url('<?php echo base_url(); ?>/assets/image/k1.jpg');"></div>
+              <div class="swiper-slide" style="background:url('<?php echo base_url(); ?>/assets/image/k1.jpg');"></div>
+              <div class="swiper-slide" style="background:url('<?php echo base_url(); ?>/assets/image/k1.jpg');"></div>
+              <div class="swiper-slide" style="background:url('<?php echo base_url(); ?>/assets/image/k1.jpg');"></div>
+              <div class="swiper-slide" style="background:url('<?php echo base_url(); ?>/assets/image/k1.jpg');"></div>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
+          </div><center>
+          <div class="lengkap">
+            <a href="#"  class="btn btn-outline-primary">Selengkapnya</a>
+          </div></center>
+        </div>
+      </div>
+    </div>
+    <div class="testi" id="testimoni-sc">
+      <div class="rotate-tes">
+        <div class="tes-r"></div>
+      </div>
+      <div class="col-md-12">
+        <div class="testim">
+          <div class="pack">
+            <h1>TESTIMONI</h1>
+            <p>"Apa kata mereka."(Siswa, Alumni.)</p>
+          </div>
+          <div class="testimoni">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="col-md-12">
+                  <img src="<?php echo base_url(); ?>/assets/image/testi3.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="col-md-12">
+                  <img src="<?php echo base_url(); ?>/assets/image/testi3.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="col-md-12">
+                  <img src="<?php echo base_url(); ?>/assets/image/testi3.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="col-md-12">
+                  <img src="<?php echo base_url(); ?>/assets/image/testi3.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="col-md-12">
+                  <img src="<?php echo base_url(); ?>/assets/image/testi3.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="col-md-12">
+                  <img src="<?php echo base_url(); ?>/assets/image/testi3.png" alt="">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="tent" id="tentang-sc">
+      <div class="tent-r">
+        <div class="rotate-tent"></div>
+      </div>
+      <div class="col-md-12">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="tentang">
+                <center><div class="pack">
+                  <h1>TENTANG</h1>
+                  <div class="span"></div>
+                </div></center>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="visi">
+                <center><div class="pack">
+                  <h1>VISI & MISI</h1><div class="span"></div>
+                </div></center>
+                <img data-aos="zoom-in-down"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000" class="jr-image image-responsive v-image" src="<?php echo base_url(); ?>/assets/image/visimisi.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="kont" id="kontak-sc">
+      <div class="col-md-12">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="kont-jdl">
+              <center>
+                <div class="pack">
+                  <h1>KONTAK</h1>
+                  <div class="span"></div><br><br>
+                  <h5>Tanyakan Apa Saja</h5>
+                </div>
+              </center>
+            </div>
+            <div class="form-kontak col-md-6">
+              <form class="kontak-us" action="kontak" method="post">
+                <h3>Form Kontak</h3>
+                <input type="text" name="nama" placeholder="Nama"><br>
+                <input type="text" name="email" placeholder="Email"><br>
+                <input type="text" name="nohp" placeholder="No Hp"><br>
+                <textarea name="pesan" placeholder="Pesan Kamu"></textarea><br>
+                <input type="submit" name="kirim" value="KIRIM PESAN">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="<?php echo base_url(); ?>/assets/jquery-3.3.1.slim.min.js" ></script>
-    <script src="<?php echo base_url(); ?>/assets/typed.js"></script>
     <script src="<?php echo base_url(); ?>/assets/parallax.js"></script>
     <script src="<?php echo base_url(); ?>/assets/popper.min.js" ></script>
     <script src="<?php echo base_url(); ?>/assets/swiper.min.js" ></script>
     <script src="<?php echo base_url(); ?>/assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>/assets/aos.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         AOS.init();
         $(window).scroll(function() {
           var scroll = $(window).scrollTop();
-          if (scroll >= 100) {
+          if (scroll >= 200) {
             $('.navbar').addClass('fixed-top');
             $('.navbar').addClass('nav-fix');
-          }else {
+          }
+          else {
             $('.navbar').removeClass('fixed-top');
             $('.navbar').removeClass('nav-fix');
           }
